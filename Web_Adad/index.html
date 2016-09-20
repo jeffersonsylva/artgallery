@@ -1,0 +1,123 @@
+<!doctype html>
+<!--Lunes 8 de Junio de 2015-->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Inicio - Gravity 42</title>
+</head>
+
+<body>
+	<div class="brand">GRAVITY 42</div>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">GRAVITY 42</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="juego.html">Juego</a></li>
+					<li><a href="historia.html">Historia</a></li>
+					<li><a href="galeria.html">Galería</a></li>
+					<li><a href="creditos.html">Créditos</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="box">
+				<div class="col-lg-12 text-center">
+					<div id="carousel-example-generic" class="carousel slide">
+						<ol class="carousel-indicators hidden-xs">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>	
+						<div class="carousel-inner">
+							
+							<div class="item active">
+								<img class="img-responsive img-full" src="images/muestra1.png" alt="">
+							</div>
+                            
+							<div class="item">
+								<img class="img-responsive img-full" src="images/muestra2.png" alt="">
+							</div>
+
+							<div class="item">
+								<img class="img-responsive img-full" src="images/muestra3.png" alt="">
+							</div>
+						
+						</div>
+						<!--Controles para las slides-->
+						<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="icon-prev"></span></a>
+						<a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="icon-next"></span></a>
+					</div>
+
+					<h2 class="brand-before">
+						<small></small> <!--Deja un espacio después de las slides para que se vea bonito-->
+					</h2>
+					<h1>Un proyecto de Multimedia</h1> <!--Va todo en mayúscula-->
+					<hr class="tagline-divider">
+					<h2>
+					<small>Por
+						<strong>Victor Adad Sangabriel</strong>
+					</small>
+					</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="box">
+				<div class="col-lg-12">
+				<hr><h2 class="intro-text text-center">Cómo
+					<strong>empezó</strong>
+				</h2>
+				<hr><img class="img-responsive img-border img-left" src="images/raptor1.png" alt=""><hr class="visible-xs"> <!--Velociraptor-->
+				
+				<p>La idea de un video juego se encuentra en la mente de la mayoria de los jovenes que en su momento pasaron incontables horas rescatando princesas, compitiendo en carreras, y desde luego, defendiendo a la tierra de los alienigenas. Hoy, la clase de Mltimedia nos ha brindado esa oportunidad, de ser nosotros quienes sedamos el protagonismo a quien esté dispuesto a tomarlo.</p>
+				
+				<p>Esta página es el resultado del proceso del estudio y comprensión del concepto de multimedia, y un proyecto integrador como tal. Además de alojar a GRAVITY 42 (el videjo juego), se darán cuenta del uso de diversas imágenes, gráficos, audios, etc. y en cada página un reflejo único de estilos.</p>
+				
+				<p>GRAVITY 42 es una experiencia que quizá ya conozcas, pero no es como ninguna otra. Batallas épicas, enemigos feroces y misteriosos secretos aguardan más allá del sistema solar. ¡Toma tu casco, elije tu dinosaurio y salva a la raza humana!</p>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="col-lg-12 text-center">
+				<p>GRAVITY 42 licensed under a <a href="creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonComercial-ShareAlike 3.0 Unported License</a>.
+                    
+				<a href="http://www.w3.org/html/logo/">
+					<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-device-graphics-multimedia-performance.png" width="261" height="64" alt="HTML5 Powered with CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, and Performance &amp; Integration" title="HTML5 Powered with CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, and Performance &amp; Integration">
+					</p>
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script> <!--JavaScript para interfaz y animaciones-->
+	<script>
+		$('.carousel').carousel({
+			interval: 5000 
+		})
+	</script>
+</body>
+</html>
